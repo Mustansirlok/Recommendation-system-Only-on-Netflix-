@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendation System(Only-On-Netflix)</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <script>
+        function validateForm() {
+            let genre = document.forms["preferencesForm"]["genre"].value;
+            if (genre == "") {
+                alert("Genre must be filled out");
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Netflix Recommendation System</h1>
+        <form name="preferencesForm" action="/recommendations" method="post" onsubmit="return validateForm()">
+            <label for="content_type">Content Type:</label>
+            <select id="content_type" name="content_type">
+                <option value="Long Form">Long Form (TV Shows)</option>
+                <option value="Short Form">Short Form (Movies)</option>
+            </select>
+
+            <div id="durationDiv" style="display: none; margin-top: 8px;">
+                <label for="duration" >Episode Duration:</label>
+                <select id="duration" name="duration">
+                    <option value="22">22 minutes</option>
+                    <option value="30">30 minutes</option>
+                    <option value="50">50 minutes</option>
+                    <option value="60">60 minutes</option>
+                </select>
+            </div>
+
+            <label for="audience">Audience:</label>
+            <select id="audience" name="audience">
+                <option value="Adults">Adults</option>
+                <option value="Teens">Teens</option>
+                <option value="Kids">Kids</option>
+            </select>
+
+            <label for="genre">Genre:</label>
+            <input type="text" id="genre" name="genre" required>
+
+            <label for="special">Special:</label>
+            <select id="special" name="special">
+                <option value="New">New</option>
+                <option value="Popular">Popular</option>
+                <option value="Award Winning">Award Winning</option>
+            </select>
+
+            <button type="submit">Get Recommendations</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('content_type').addEventListener('change', function () {
+            if (this.value.toLowerCase() === 'long form') {
+                document.getElementById('durationDiv').style.display = 'block';
+            } else {
+                document.getElementById('durationDiv').style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>

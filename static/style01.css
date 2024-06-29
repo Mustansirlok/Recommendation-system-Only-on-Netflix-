@@ -1,0 +1,41 @@
+/* Reset default browser styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; /* Use a suitable retro font */
+  background-color: black; /* Black background */
+  color: white; /* White text color */
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background for container */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  color: darkpurple; /* Dark purple text color for headings */
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for each recommendation card */
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+

@@ -1,0 +1,81 @@
+title,type,genre,rating,release_year,duration,popularity,awards
+Stranger Things,TV Show,Drama,TV-14,2016,50,High,Yes
+Breaking Bad,TV Show,Crime,TV-MA,2008,47,High,Yes
+The Crown,TV Show,History,TV-MA,2016,60,Medium,Yes
+Black Mirror,TV Show,Sci-Fi,TV-MA,2011,60,Medium,No
+The Irishman,Movie,Crime,R,2019,209,Medium,Yes
+Marriage Story,Movie,Drama,R,2019,137,High,Yes
+The Witcher,TV Show,Fantasy,TV-MA,2019,60,High,No
+BoJack Horseman,TV Show,Comedy,TV-MA,2014,25,Medium,No
+Moana,Movie,Animation,PG,2016,107,High,Yes
+Toy Story,Movie,Animation,G,1995,81,High,Yes
+Frozen,Movie,Animation,PG,2013,102,High,Yes
+Avatar: The Last Airbender,TV Show,Animation,TV-Y7,2005,23,High,Yes
+The Office,TV Show,Comedy,TV-14,2005,22,High,Yes
+Friends,TV Show,Comedy,TV-14,1994,22,High,Yes
+Tiger King,TV Show,Documentary,TV-MA,2020,40,High,No
+Planet Earth,TV Show,Documentary,TV-G,2006,50,High,Yes
+Inception,Movie,Sci-Fi,PG-13,2010,148,High,Yes
+The Social Network,Movie,Drama,PG-13,2010,120,Medium,Yes
+The Matrix,Movie,Sci-Fi,R,1999,136,High,Yes
+Coco,Movie,Animation,PG,2017,105,High,Yes
+The Lion King,Movie,Animation,G,1994,88,High,Yes
+The Gentlemen,TV Show,Drama,R,2024,50,High,No
+Addams Family Values,Movie,Comedy,PG-13,1993,94,Medium,No
+Django Unchained,Movie,Western,R,2012,165,High,Yes
+The Great Gatsby,Movie,Drama,PG-13,2013,143,High,Yes
+Schindler's List,Movie,Drama,R,1993,195,High,Yes
+Pulp Fiction,Movie,Crime,R,1994,154,High,Yes
+The Shawshank Redemption,Movie,Drama,R,1994,142,High,Yes
+The Godfather,Movie,Crime,R,1972,175,High,Yes
+The Dark Knight,Movie,Action,PG-13,2008,152,High,Yes
+The Silence of the Lambs,Movie,Thriller,R,1991,118,High,Yes
+The Shining,Movie,Horror,R,1980,146,High,Yes
+Forrest Gump,Movie,Drama,PG-13,1994,142,High,Yes
+Goodfellas,Movie,Biography,R,1990,146,High,Yes
+Jurassic Park,Movie,Adventure,PG-13,1993,127,High,Yes
+The Terminator,Movie,Sci-Fi,R,1984,107,High,Yes
+Alien,Movie,Sci-Fi,R,1979,117,High,Yes
+Jaws,Movie,Adventure,PG,1975,124,High,Yes
+Rocky,Movie,Drama,PG,1976,120,High,Yes
+Titanic,Movie,Romance,PG-13,1997,195,High,Yes
+The Notebook,Movie,Romance,PG-13,2004,123,High,Yes
+The Exorcist,Movie,Horror,R,1973,122,High,Yes
+Psycho,Movie,Horror,R,1960,109,High,Yes
+Gone with the Wind,Movie,Drama,G,1939,238,High,Yes
+Casablanca,Movie,Drama,PG,1942,102,High,Yes
+Star Wars: Episode IV - A New Hope,Movie,Sci-Fi,PG,1977,121,High,Yes
+Back to the Future,Movie,Adventure,PG,1985,116,High,Yes
+ET the Extra-Terrestrial,Movie,Sci-Fi,PG,1982,115,High,Yes
+The Breakfast Club,Movie,Comedy,R,1985,97,High,Yes
+Top Gun,Movie,Action,PG,1986,110,High,Yes
+Indiana Jones and the Raiders of the Lost Ark,Movie,Action,PG,1981,115,High,Yes
+Die Hard,Movie,Action,R,1988,132,High,Yes
+Ghostbusters,Movie,Comedy,PG,1984,105,High,Yes
+The Princess Bride,Movie,Adventure,PG,1987,98,High,Yes
+Ferris Bueller's Day Off,Movie,Comedy,PG-13,1986,103,High,Yes
+The Sixth Sense,Movie,Drama,PG-13,1999,107,High,Yes
+The Green Mile,Movie,Crime,R,1999,189,High,Yes
+Gladiator,Movie,Action,R,2000,155,High,Yes
+The Departed,Movie,Crime,R,2006,151,High,Yes
+No Country for Old Men,Movie,Crime,R,2007,122,High,Yes
+Avatar,Movie,Sci-Fi,PG-13,2009,162,High,Yes
+The Grand Budapest Hotel,Movie,Comedy,R,2014,99,High,Yes
+Interstellar,Movie,Sci-Fi,PG-13,2014,169,High,Yes
+Mad Max: Fury Road,Movie,Action,R,2015,120,High,Yes
+La La Land,Movie,Comedy,PG-13,2016,128,High,Yes
+Get Out,Movie,Horror,R,2017,104,High,Yes
+A Quiet Place,Movie,Horror,PG-13,2018,90,High,Yes
+Parasite,Movie,Thriller,R,2019,132,High,Yes
+1917,Movie,Drama,R,2019,119,High,Yes
+The Revenant,Movie,Adventure,R,2015,156,High,Yes
+The Martian,Movie,Sci-Fi,PG-13,2015,144,High,Yes
+The Wolf of Wall Street,Movie,Biography,R,2013,180,High,Yes
+Birdman,Movie,Comedy,R,2014,119,High,Yes
+American Sniper,Movie,Action,R,2014,133,High,Yes
+Black Panther,Movie,Action,PG-13,2018,134,High,Yes
+The Avengers,Movie,Action,PG-13,2012,143,High,Yes
+The Dark Knight Rises,Movie,Action,PG-13,2012,165,High,Yes
+Wonder Woman,Movie,Action,PG-13,2017,141,High,Yes
+Joker,Movie,Crime,R,2019,122,High,Yes
+The Dark Knight,Movie,Action,PG-13,2008,152,High,Yes

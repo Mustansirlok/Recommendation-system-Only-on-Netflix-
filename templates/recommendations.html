@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendations</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style01.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Recommendations</h1>
+        
+        {% if recommendations %}
+            {% for recommendation in recommendations %}
+                <div class="card">
+                    <h3>{{ recommendation.title }} ({{ recommendation.release_year }})</h3>
+                    <p>{{ recommendation.type }}, {{ recommendation.genre }}</p>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>No recommendations available for the specified criteria.</p>
+        {% endif %}
+    </div>
+</body>
+</html>
+
+
